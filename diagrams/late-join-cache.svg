@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="408" viewBox="0 0 760 408" role="img" aria-labelledby="title desc">
+<title id="title">A late subscriber and a cache of two</title>
+<desc id="desc">The publisher sent samples 101, 102 and 103 before the subscriber joined. With two cache slots, 102 and 103 remain for replay. Samples 104 and 105 are new.</desc>
+<rect width="760" height="408" rx="20" fill="#edf6f3"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#16343a">
+  <text x="36" y="52" font-weight="700" font-size="31">A late subscriber and a cache of two</text>
+  <text x="36" y="88" font-size="22">Both ends request or offer transient local.</text>
+  <text x="36" y="153" font-size="24" font-weight="700">Before joining</text>
+  <text x="526" y="153" font-size="24" font-weight="700">After joining</text>
+</g>
+<path d="M36 230 H723" stroke="#234b51" stroke-width="3"/>
+<path d="M723 230 l-12 -7 v14 Z" fill="#234b51"/>
+<path d="M468 143 V310" stroke="#234b51" stroke-width="3" stroke-dasharray="7 7"/>
+<g>
+  <rect x="52" y="198" width="92" height="64" rx="10" fill="#607777"/>
+  <rect x="180" y="198" width="92" height="64" rx="10" fill="#0d685f"/>
+  <rect x="308" y="198" width="92" height="64" rx="10" fill="#0d685f"/>
+  <rect x="526" y="198" width="82" height="64" rx="10" fill="#184d70"/>
+  <rect x="635" y="198" width="82" height="64" rx="10" fill="#184d70"/>
+</g>
+<g text-anchor="middle" fill="white" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700">
+  <text x="98" y="240">101</text><text x="226" y="240">102</text><text x="354" y="240">103</text>
+  <text x="567" y="240">104</text><text x="676" y="240">105</text>
+</g>
+<g text-anchor="middle" fill="#16343a" font-family="DejaVu Sans,sans-serif" font-size="23">
+  <text x="98" y="306">Evicted</text><text x="290" y="306">Modeled replay</text><text x="468" y="343">Join</text><text x="622" y="306">Live eligible</text>
+</g>
+<text x="36" y="375" fill="#16343a" font-family="DejaVu Sans,sans-serif" font-size="20">Illustrative cache. This is not a packet trace.</text>
+</svg>

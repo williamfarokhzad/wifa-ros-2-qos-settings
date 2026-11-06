@@ -1,0 +1,20 @@
+{
+  "publisher": {
+    "reliability": "reliable",
+    "durability": "transient_local",
+    "depth": 0
+  },
+  "subscriber": {
+    "reliability": "reliable",
+    "durability": "transient_local"
+  },
+  "before_join": [
+    101,
+    102,
+    103
+  ],
+  "after_join": [
+    104,
+    105
+  ]
+}

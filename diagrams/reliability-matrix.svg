@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="428" viewBox="0 0 760 428" role="img" aria-labelledby="title desc">
+<title id="title">Reliability is directional</title>
+<desc id="desc">A best effort publisher matches a best effort subscriber only. A reliable publisher matches either reliability request.</desc>
+<rect width="760" height="428" rx="20" fill="#edf6f3"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#16343a">
+  <text x="36" y="52" font-weight="700" font-size="31">Reliability is directional</text>
+  <text x="36" y="87" font-size="21">Assume other topic settings are compatible.</text>
+  <text x="503" y="139" text-anchor="middle" font-size="24" font-weight="700">Subscriber requests</text>
+  <text x="389" y="176" text-anchor="middle" font-size="25">Best effort</text>
+  <text x="614" y="176" text-anchor="middle" font-size="25">Reliable</text>
+  <text x="36" y="191" font-size="21" font-weight="700">Publisher offers</text>
+  <text x="36" y="240" font-size="26">Best effort</text>
+  <text x="36" y="316" font-size="26">Reliable</text>
+</g>
+<rect x="282" y="202" width="214" height="58" rx="10" fill="#0d685f"/>
+<rect x="507" y="202" width="214" height="58" rx="10" fill="#8a332a"/>
+<rect x="282" y="278" width="214" height="58" rx="10" fill="#0d685f"/>
+<rect x="507" y="278" width="214" height="58" rx="10" fill="#0d685f"/>
+<g text-anchor="middle" fill="white" font-family="DejaVu Sans,sans-serif" font-size="25" font-weight="700">
+  <text x="389" y="240">Match</text><text x="614" y="240">No match</text>
+  <text x="389" y="316">Match</text><text x="614" y="316">Match</text>
+</g>
+<text x="36" y="384" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#16343a">Increasing history depth does not change this table.</text>
+</svg>
